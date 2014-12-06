@@ -90,7 +90,7 @@ module OpalOnAngularities
           case
           when block_given?
             block
-          when /^@.*/ =~ target_name.to_s
+          when %r|^@.*| =~ target_name.to_s
             ->(selff) { selff.instance_variable_get(target_name) }
           when target_name
             target_name.to_sym.to_proc

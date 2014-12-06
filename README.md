@@ -7,4 +7,4 @@ write AngularJS app in Ruby using Opal.
 
 * port of [AngularJS Tutorial Step 2](https://docs.angularjs.org/tutorial/step_02)
 
-http://jsfiddle.net/ippeiukai/qq5hugbm/1/
+http://jsfiddle.net/ippeiukai/qq5hugbm

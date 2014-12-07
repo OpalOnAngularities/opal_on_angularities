@@ -7,7 +7,7 @@ requires: https://github.com/OpalOnAngularities/native_adaptable_class
 
 ## Demo
 
-(demos on JSFiddle does not work on Chrome due to ``.opal`` files served from rawgit.com having wrong MIME-type)
+(demos on JSFiddle do not work on Chrome due to ``.opal`` files from rawgit.com having wrong MIME-types)
 
 * port of [AngularJS Tutorial Step 2](https://docs.angularjs.org/tutorial/step_02)
 

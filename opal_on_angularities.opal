@@ -145,7 +145,7 @@ module OpalOnAngularities
             dependencies_by_name = Hash[pass_ons[:dependencies].zip(resolved_dependencies.map { |o| Native(o) })]
             opal_instance = `#@native.$_opal_class_$`.new(dependencies_by_name)
             `Object.defineProperty(#@native, '$_opal_instance_$', {get: function() { return #{opal_instance}; }})`
-            self
+            opal_instance
           end
           `#{fn}.prototype = #{self.native_adapter_class}.prototype`
           [*dependencies, fn].to_n
